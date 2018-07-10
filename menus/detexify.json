@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle detexify",
+        "command": "detexify:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "detexify",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "detexify:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
