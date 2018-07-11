@@ -13,28 +13,30 @@
     #detexify-canvas {
       position: relative;
       float: left;
-      width: 300px;
+      width: 280px;
       height: 280px;
-      border: 1px solid black;
-      background-color: white;
+      cursor: crosshair;
+      // border: 1px solid black;
+      // background-color: white;
 
-      #detexify-clear {
-        position: absolute;
-        top: 0px;
-        right: 10px;
-        font-size: 2.25em;
-        color: black;
-        cursor: pointer;
-      }
       #detexify-drawhere {
         pointer-events: none;
         position: absolute;
         left: 0;
         top: 0;
-        width: 300px;
+        width: 280px;
         height: 280px;
         background: url('atom://detexify/assets/draw_here.png') center no-repeat;
       }
+    }
+
+    #detexify-clear {
+      position: absolute;
+      top: 0px;
+      right: 280px;
+      font-size: 2.25em;
+      color: black;
+      cursor: pointer;
     }
 
     #detexify-results {
