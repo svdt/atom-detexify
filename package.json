@@ -3,7 +3,7 @@
   "main": "./lib/detexify",
   "version": "0.1.2",
   "description": "The atom plugin for Daniel Kirsch's http://detexify.kirelabs.org/classify.html to find latex symbols from drawings.",
-  "keywords": [],
+  "keywords": ["detexify", "latex", "classify", "symbol", "symbols", "drawings"],
   "activationCommands": {
     "atom-workspace": "detexify:toggle"
   },
